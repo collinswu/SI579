@@ -1,0 +1,29 @@
+*{
+    background-color: #D4F1F4;
+}
+
+h1{
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+footer {
+    background-color: grey;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.me{
+    position: relative;
+    animation-name: me;
+    animation-duration: 4s;
+  }
+
+@keyframes me {
+    0%   {left:0px; top:0px;}
+    50%  {left:1100px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+
